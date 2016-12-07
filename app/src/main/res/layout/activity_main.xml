@@ -8,10 +8,173 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.androidbolivia.study_jam_tarea1.MainActivity">
+    tools:context="com.androidbolivia.study_jam_tarea1.MainActivity"
+    android:background="@android:color/holo_red_dark">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cover"
+        android:scaleType="fitStart"/>
 
-    <TextView
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="10">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/matte_ab_poweramp_icon"
+            android:layout_weight="7"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/matte_ab_folders_lib"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/matte_panel_equ"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/matte_panel_tone"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="17">
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="15">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/matte_repeat_advance"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="13"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/matte_shuffle_none"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="5">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/matte_prev_cat"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/matte_rw"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/matte_play_big"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/matte_rw"
+          android:layout_weight="1"
+          android:rotation="180"/>
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:src="@drawable/matte_prev_cat"
+          android:layout_weight="1"
+          android:rotation="180"/>
+
+
+
+  </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:src="@drawable/matte_albums"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Te Recorde Bailando"
+                android:textSize="23dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don Omar:The Last Don II"
+                android:textSize="23dp"/>
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/holo_blue_light"></LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="0:00"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="44.1KHZ 256KBPS mp3"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="3:33"
+        android:layout_weight="1"
+        android:gravity="right"/>
+</LinearLayout>
+
+</LinearLayout>
+
+
 </RelativeLayout>
